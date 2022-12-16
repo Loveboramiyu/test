@@ -1,0 +1,368 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@400;500&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style-type: none;
+}
+
+.box1{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: rgb(0, 0, 0);
+    opacity: 0.5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 2;
+}
+
+.wrap{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+    overflow: hidden;
+    
+}
+
+video{
+    min-width: 100%;
+    min-height: 100%;
+}
+
+.bt1{
+    position: absolute;
+    width: 100%;
+    height: 30%;
+    bottom: 5%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 3;
+}
+
+.bt2{
+    position: absolute;
+    width: 100%;
+    bottom: 5%;
+    text-align: center;
+    z-index: 4;
+}
+
+.bt3{
+    position: absolute;
+    right: 20px;
+    text-align: right;
+    z-index: 5;
+}
+
+
+/**--sub전체--*/
+
+body{
+    display: flex;
+    justify-content: center;
+}
+
+.cont1{
+    position: absolute;
+    width: 100%;
+    height: 233px;
+    z-index: 1;
+    background-color: black;
+ }
+
+ /**--sub1--*/
+.btn1{
+    position: absolute;
+    font-size: 40px;
+    top: 87.5px;
+    left: 400px;
+    background-color: black;
+    color: #C4BDBD;
+    font-family: 'Noto Sans KR';
+    font-weight: 400;
+    z-index: 2;
+    transition: all 0.1s;
+}
+
+.btn1:focus{
+    outline: none;
+}
+
+.btn1:hover{
+    background-color: black;
+    color: white;
+    top: 66px;
+    font-size: 70px;
+    font-weight: 500;
+    left: 350px;
+    
+}
+
+.btn2{
+    position: relative;
+    width: 300px;
+    height: 58px;
+    top: 87.5px;
+    font-size: 40px;
+    font-family:'Noto Sans KR';
+    font-weight: 400;
+    background-color: black;
+    color: #C4BDBD;
+    transition: all 0.1s;
+     z-index: 2;
+}
+
+.btn2:focus{
+    outline: none;
+}
+
+.btn2:hover{
+    width: 400px;
+    height: 101px;
+    background-color: black;
+    color: white;
+    top: 66px;
+    font-size: 70px;
+    font-weight: 500;
+}
+
+.btn3{
+    position: absolute;
+    font-size: 40px;
+    top: 87.5px;
+    right: 400px;
+    background-color: black;
+    color: #C4BDBD;
+    font-family: 'Noto Sans KR';
+    font-weight: 400;
+    z-index: 2;
+    transition: all 0.1s;
+}
+
+.btn3:focus{
+    outline: none;
+}
+
+.btn3:hover{
+    background-color: black;
+    color: white;
+    top: 66px;
+    font-size: 70px;
+    font-weight: 500;
+    right: 350px;
+    
+}  
+
+.f1{
+    position: absolute;
+    width: 694px;
+    height: 840px;
+    top: 324px;
+    margin-right: 880px;
+    text-align: center;
+    z-index: 4;
+}
+
+.f2{
+    position: absolute;
+    width: 762px;
+    height: 695px;
+    top: 334px;
+    margin-left: 880px;
+    text-align: center;
+    z-index: 4;
+}
+
+.f3{
+    position: absolute;
+    width: 1513px;
+    height: 1364px;
+    top: 1788px;
+    text-align: center;
+    z-index: 4
+}
+.f8{
+    position: absolute;
+    width: 192px;
+    height: 134px;
+    padding: 45px;
+    text-align: center;
+    z-index: 4;
+}
+
+.block1{
+    position: absolute;
+    width: 100%;
+    height: 225px;
+    background-color: black;
+}
+
+.block2{
+    position: absolute;
+    width: 100%;
+    height: 246px;
+    top: 1288px;
+    
+    background-color: #EFEFEF;
+}
+
+.bl1{
+    top: 3650px;
+}
+
+
+ /**--sub2--*/
+.se1{
+    position: absolute;
+    width: 100%;
+    height: 1080px;
+    margin-top: 268px;
+    text-align: center;
+}
+
+.se2{
+    position: absolute;
+    width: 1371px;
+    height: 558px;
+    top: 2140px;
+    text-align: center;
+}
+
+
+.bl2{
+    top: 3300px;
+}
+
+.block3{
+    position: absolute;
+    width: 100%;
+    height: 246px;
+    background-color: #EFEFEF;
+    top:1567px
+}
+/**--sub3--*/
+.th1{
+    position: absolute;
+    width: 1503px;
+    height: 1260px;
+    top: 450px;
+    text-align: center;
+}
+
+.block4{
+    
+    position: absolute;
+    width: 100%;
+    height: 246px;
+    background-color: #EFEFEF;
+    top:2052px
+    
+}
+/**--logo--*/
+
+.title1{
+    position: absolute;
+    width: 530px;
+    height: 201px;
+    top: 2477px;
+    text-align: center;
+    
+}
+
+.lo1{
+    position: absolute;
+    width: 329px;
+    height: 339px;
+    top: 2075px;
+    text-align: center;
+}
+
+.lo2{
+    position: absolute;
+    width: 400px;
+    height: 318px;
+    top: 3123px;
+    text-align: center;
+}
+
+/**--car--*/
+.sk1{
+    position: absolute;
+    width: 1803px;
+    height: 699px;
+    top: 3137px;
+    text-align: center;
+}
+
+.sk2{
+    position: absolute;
+    width: 1803px;
+    height: 790;
+    top: 3957px;
+    text-align: center;
+}
+
+.sk3{
+    position: absolute;
+    width: 1803px;
+    height: 1178px;
+    top: 4804px;
+    text-align: center; 
+}
+
+.sk4{
+    position: absolute;
+    width: 1803px;
+    height: 827px;
+    top: 6080px;
+    text-align: center; 
+}
+
+.sk5{
+    position: absolute;
+    width: 1803px;
+    height: 748px;
+    top: 7008px;
+    text-align: center; 
+}
+
+.sk6{
+    position: absolute;
+    width: 1803px;
+    height: 791px;
+    top: 7851px;
+    text-align: center; 
+}
+
+.sk7{
+    position: absolute;
+    width: 1803px;
+    height: 793px;
+    top: 8741px;
+    text-align: center; 
+}
+
+.sk8{
+    position: absolute;
+    width: 1803px;
+    height: 1626px;
+    top: 9621px;
+    text-align: center; 
+}
+
+.sk9{
+    position: absolute;
+    width: 444px;
+    height: 424px;
+    top: 11453px;
+    text-align: center; 
+}
+
+.bl3{
+    top: 12300px;
+}
+/**--strock--*/
